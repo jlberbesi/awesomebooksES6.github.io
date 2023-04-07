@@ -51,13 +51,6 @@ HTML, CSS and Javascript vanilla.
 
 <!-- Project Presntation -->
 
-## :movie_camera: Project Presentation <a name="project-presentation"></a>
-
-Walking through portfolio outline.
-
-- [Project Presentation Link] [#](#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -73,8 +66,8 @@ Walking through portfolio outline.
 
 To get a local copy up and running, follow these steps.
 
-[Use Git or checkout with SVN using the web URL.]
-(git@github.com:jlberbesi/awesomebooksES6.github.io.git)
+- Use Git or checkout with SVN using the web URL.
+git@github.com:jlberbesi/awesomebooksES6.github.io.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
