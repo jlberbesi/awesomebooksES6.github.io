@@ -1,21 +1,18 @@
 import Book from './Book.js';
 
-export default class BookList {
+class BookList {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
     this.bookList = document.getElementById('book-list');
     this.titleInput = document.getElementById('title');
     this.authorInput = document.getElementById('author');
-    document
-      .getElementById('book-form')
-      .addEventListener('submit', (e) => {
-        e.preventDefault();
-        this.addBook();
-      });
+    this.addBook = this.addBook.bind(this);
+    document.getElementById('book-form').addEventListener('submit', this.addBook);
     this.displayBooks();
   }
 
-  addBook() {
+  addBook(e) {
+    e.preventDefault();
     const book = new Book(this.titleInput.value, this.authorInput.value, () => {
       this.books = this.books.filter((b) => b !== book);
       localStorage.setItem('books', JSON.stringify(this.books));
@@ -54,3 +51,5 @@ export default class BookList {
     });
   }
 }
+
+export default BookList;
