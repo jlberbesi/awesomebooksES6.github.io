@@ -1,0 +1,130 @@
+nav {
+  display: flex;
+  justify-content: right;
+  background-color: white;
+  border: solid 2px black;
+  height: 50px;
+}
+
+nav p {
+  padding-right: 68%;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  margin: auto 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: solid 2px black;
+  color: black;
+  padding: 1rem;
+  text-align: left;
+}
+
+button {
+  float: right;
+  border: solid 0.5px;
+  background-color: white;
+}
+
+input {
+  background-color: whitesmoke;
+  border: solid 1px;
+  width: 400px;
+  padding: 5px 5px;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#date {
+  color: black;
+}
+
+#book-section {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+.line {
+  border-right: solid 1px black;
+  padding-right: 10px;
+}
+
+.float-date {
+  float: right;
+  padding-left: 80%;
+}
+
+.points {
+  display: block;
+  flex-direction: column;
+}
+
+.points li {
+  list-style-type: square;
+}
+
+.active {
+  display: block;
+}
+
+.book {
+  background-color: gainsboro;
+  width: 400px;
+  border: solid 1px;
+  list-style: none;
+  padding: 5px 5px 5px 5px;
+}
+
+#author {
+  margin-top: 2%;
+}
+
+.center {
+  text-align: center;
+}
+
+.top {
+  margin-top: 3%;
+  border: solid 3px;
+}
