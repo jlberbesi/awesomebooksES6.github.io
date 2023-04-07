@@ -38,15 +38,14 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML and Javascript vanilla.
+HTML, CSS and Javascript vanilla.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Plain JS with objects]**
-- **[JavaScript classes]**
-
+- **[ES6 syntax]**
+- **[ES6 Modular JS]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +63,7 @@ Walking through portfolio outline.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jlberbesi.github.io/Awesome_books.github.io/)
+- [Live Demo Link](https://jlberbesi.github.io/awesomebooksES6.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +74,7 @@ Walking through portfolio outline.
 To get a local copy up and running, follow these steps.
 
 Use Git or checkout with SVN using the web URL.
-https://github.com/
+git@github.com:jlberbesi/awesomebooksES6.github.io.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,7 +123,6 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Templete used in project provided by (Microverse).
-- Original design idea by Cindy Shin in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
