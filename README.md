@@ -63,7 +63,7 @@ Walking through portfolio outline.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jlberbesi.github.io/awesomebooksES6.github.io/)
+- [Live Demo Link](NO DEPLOYED YET)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

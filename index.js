@@ -4,13 +4,11 @@ import navigation from './modules/navigation.js';
 
 const displayDate = () => {
   const currentDate = DateTime.local().toLocaleString(DateTime.DATE_FULL);
-  const dateEl = document.getElementById('date');
-  dateEl.textContent = currentDate;
+  document.getElementById('date').textContent = currentDate;
 };
 
 window.addEventListener('load', displayDate);
 
 window.addEventListener('load', navigation);
 
-const bookList = new BookList();
-export default bookList;
+export default new BookList();
