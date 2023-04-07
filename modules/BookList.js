@@ -1,6 +1,6 @@
 import Book from './Book.js';
 
-class BookList {
+export default class BookList {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
     this.bookList = document.getElementById('book-list');
@@ -51,5 +51,3 @@ class BookList {
     });
   }
 }
-
-export default BookList;
