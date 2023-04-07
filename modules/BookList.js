@@ -6,13 +6,16 @@ export default class BookList {
     this.bookList = document.getElementById('book-list');
     this.titleInput = document.getElementById('title');
     this.authorInput = document.getElementById('author');
-    this.addBook = this.addBook.bind(this);
-    document.getElementById('book-form').addEventListener('submit', this.addBook);
+    document
+      .getElementById('book-form')
+      .addEventListener('submit', (e) => {
+        e.preventDefault();
+        this.addBook();
+      });
     this.displayBooks();
   }
 
-  addBook(e) {
-    e.preventDefault();
+  addBook() {
     const book = new Book(this.titleInput.value, this.authorInput.value, () => {
       this.books = this.books.filter((b) => b !== book);
       localStorage.setItem('books', JSON.stringify(this.books));
